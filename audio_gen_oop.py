@@ -49,5 +49,5 @@ class Audio_gen:
 if __name__ == '__main__':
     exp_dur = float(sys.argv[1])
     print exp_dur
-    audio_gen = Audio_gen(exp_dur,'/home/turtlebot/catkin_ws/src/my_turtle_turn/scripts/White-noise-sound-20sec-mono-44100Hz.wav',0)
+    audio_gen = Audio_gen(exp_dur,'White-noise-sound-20sec-mono-44100Hz.wav',0)
     audio_gen.send_to_speaker()
